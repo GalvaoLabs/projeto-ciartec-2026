@@ -4,7 +4,7 @@
 Experiência digital educativa sobre a **Oceania, com foco na Nova Zelândia**, que parte de uma pergunta: *se o clima muda para todos, por que os impactos não são iguais?* O visitante abre o site pelo QR Code do estande e percorre: Oceania → Nova Zelândia → Clima → Desigualdade → Soluções → Quiz → Fontes.
 
 ## Tecnologias
-HTML5, CSS3 e JavaScript puro, com conteúdo em JSON. Sem backend, banco de dados ou framework. O mapa da Oceania é SVG puro, sem biblioteca e **sem chave de API**: os contornos vêm de dados do Natural Earth (domínio público). Python (Pandas e Matplotlib) é usado **apenas para analisar dados**; nada de Python roda no site.
+HTML5, CSS3 e JavaScript puro, com conteúdo em JSON. Sem backend, banco de dados ou framework. O mapa da Oceania é SVG puro, sem biblioteca e **sem chave de API**: os contornos vêm de dados do Natural Earth (domínio público). Depois de gerar e enviar o `assets/geo/oceania.geojson` ao GitHub, o mapa não depende de nenhum serviço externo. Python (Pandas e Matplotlib) é usado **apenas para analisar dados**; nada de Python roda no site.
 
 ## Estrutura
 ```
@@ -64,5 +64,14 @@ Python é usado para análise, não no site. **Pandas** organiza e trata os dado
 ## Quiz
 Cinco perguntas objetivas em `data/quiz.json`, com feedback e explicação a cada resposta. A pontuação é calculada a partir das respostas e fica só na memória da página (sem `localStorage`, sem coleta de dados). O resultado (X/5, percentual e mensagem conforme o desempenho, com a lista do que revisar) aparece só depois da última resposta, e "Refazer o quiz" zera tudo.
 
+## Autoria e desenvolvimento
+**Desenvolvimento do aplicativo:** Miguel, responsável pela coordenação técnica e pela implementação do aplicativo web.
+**Pesquisa e conteúdo:** equipe CIARTEC 2026, conforme as áreas indicadas em Créditos.
+**Apoio de IA:** parte do código e da documentação foi produzida com apoio do assistente Claude (Anthropic).
+**Projeto:** CIARTEC 2026 — Oceanic Clarity.
+
 ## Créditos
-Grupo CIARTEC 2026: Isabelly Lavínia (Sociedade), Arthur e Naely (Política), Miguel (Economia), Ana Clara (Gênero), Gabriel (Educação), Gabriel e Naely (Clima). Créditos das fotos: em `data/conteudo.json`. Mapa-base: © OpenStreetMap contributors, © CARTO.
+Grupo CIARTEC 2026: Isabelly Lavínia (Sociedade), Arthur e Naely (Política), Miguel (Economia), Ana Clara (Gênero), Gabriel (Educação), Gabriel e Naely (Clima). Créditos das fotos: em `data/conteudo.json`. Contornos do mapa: Natural Earth (domínio público), distribuídos no pacote world-atlas (licença ISC).
+
+## Licença e uso
+O **código-fonte** está sob a licença MIT (arquivo `LICENSE`). Os **textos e gráficos originais do grupo** podem ser reutilizados com crédito ao projeto (CC BY 4.0). **Fotografias, dados e contornos de terceiros não são cobertos** por essas licenças e mantêm as condições da fonte original, registradas em `data/conteudo.json`, `data/fontes.json` e `FOTOS.md`. Projeto desenvolvido para fins educacionais.
