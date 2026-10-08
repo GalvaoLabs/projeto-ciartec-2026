@@ -1,0 +1,351 @@
+{
+ "imagens": {
+  "inicio": {
+   "src": "assets/images/inicio.webp",
+   "alt": "Paisagem costeira da Nova Zelândia",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Paisagem costeira ou montanhosa da NZ, de preferência com natureza e ocupação humana (horizontal, ≥1600 px)"
+  },
+  "oceania": {
+   "src": "assets/images/oceania.webp",
+   "alt": "Ilha ou comunidade do Pacífico próxima ao mar",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Ilha/atol ou comunidade costeira do Pacífico (Tuvalu, Kiribati, Fiji...) que mostre vulnerabilidade ao mar"
+  },
+  "nova-zelandia": {
+   "src": "assets/images/nova-zelandia.webp",
+   "alt": "Paisagem neozelandesa",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Paisagem da NZ (fiordes, montanhas ou litoral)"
+  },
+  "sociedade": {
+   "src": "assets/images/sociedade.webp",
+   "alt": "Cultura Māori",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Foto documental de cultura Māori (marae, kapa haka, festival), com contexto e respeito; verificar licença e uso de imagem"
+  },
+  "politica": {
+   "src": "assets/images/politica.webp",
+   "alt": "Parlamento da Nova Zelândia em Wellington",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Parlamento (Beehive/Parliament House) em Wellington"
+  },
+  "economia": {
+   "src": "assets/images/economia.webp",
+   "alt": "Atividade agrícola na Nova Zelândia",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Agricultura, pecuária, porto, turismo ou tecnologia na NZ"
+  },
+  "genero": {
+   "src": "assets/images/genero.webp",
+   "alt": "Mulheres no trabalho ou na vida pública",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Foto documental de mulheres na política, ciência ou trabalho na NZ"
+  },
+  "educacao": {
+   "src": "assets/images/educacao.webp",
+   "alt": "Estudantes em ambiente educacional",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Estudantes/escola/universidade neozelandesa (incluindo ensino em te reo Māori, se houver)"
+  },
+  "clima": {
+   "src": "assets/images/clima.webp",
+   "alt": "Enchente em Auckland ou impacto do Ciclone Gabrielle",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Foto real das enchentes de Auckland ou do Ciclone Gabrielle (2023). Imagem mais importante do projeto"
+  },
+  "desigualdade": {
+   "src": "assets/images/desigualdade.webp",
+   "alt": "Comunidade e infraestrutura afetadas por evento climático",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Território, estradas ou comunidade afetados por evento climático, sem expor pessoas como símbolo de pobreza"
+  },
+  "solucoes": {
+   "src": "assets/images/solucoes.webp",
+   "alt": "Restauração ambiental ou infraestrutura resiliente",
+   "credit": "",
+   "source": "",
+   "caption": "",
+   "need": "Restauração de áreas úmidas/dunas/florestas, infraestrutura resiliente ou comunidade em ação de adaptação"
+  }
+ },
+ "oceania": {
+  "lead": "Uma região de oceano, ilhas e povos muito diferentes entre si.",
+  "texto": [
+   "A Oceania costuma ser dividida em quatro grandes regiões:"
+  ],
+  "regioes": [
+   [
+    "Australásia",
+    "Austrália e Nova Zelândia"
+   ],
+   [
+    "Melanésia",
+    "inclui Papua-Nova Guiné, Ilhas Salomão, Vanuatu e Fiji"
+   ],
+   [
+    "Micronésia",
+    "milhares de ilhas pequenas, muitas de atol"
+   ],
+   [
+    "Polinésia",
+    "Samoa, Tonga, Tuvalu e outras ilhas, num triângulo que vai do Havaí à Nova Zelândia"
+   ]
+  ],
+  "texto2": [
+   "Em ilhas baixas do Pacífico, a elevação do nível do mar, a erosão e os ciclones são ameaças diretas. Essas nações emitem muito pouco gás de efeito estufa, mas sentem os efeitos cedo.",
+   "A Nova Zelândia é o nosso estudo de caso: um país de renda alta, com instituições fortes e uma população Māori numerosa. Na classificação da ONU ela está na Australásia, mas também é o vértice sudoeste da Polinésia."
+  ],
+  "mais": [
+   "Há grande diferença entre países da região em renda, infraestrutura e capacidade de adaptação."
+  ],
+  "bruta": [
+   "IPCC: confirmar impactos específicos por sub-região",
+   "UNESCO: confirmar texto sobre diversidade cultural"
+  ]
+ },
+ "nz": {
+  "lead": "Se há desigualdade diante do clima num país rico e estável, ela importa em qualquer lugar.",
+  "dims": [
+   {
+    "id": "sociedade",
+    "t": "Sociedade",
+    "quem": "Isabelly Lavínia",
+    "lead": "Os povos Māori são parte central da história do país, e os indicadores sociais mostram diferenças entre grupos.",
+    "dados": [
+     {
+      "valor": "17,8%",
+      "unidade": "da população",
+      "periodo": "Censo 2023",
+      "definicao": "Pessoas que se identificam com a etnia Māori. É possível declarar mais de uma etnia.",
+      "fonte": "Stats NZ",
+      "status": "publicado"
+     }
+    ],
+    "texto": [
+     "O te reo Māori é língua oficial desde 1987, junto com o inglês e a língua de sinais neozelandesa.",
+     "O país também reúne comunidades europeias, asiáticas e dos povos do Pacífico."
+    ],
+    "bruta": [
+     "População Censo 2023: 4.993.923 (conferir contagem final)",
+     "Māori: 887.493 · descendência: 978.246",
+     "Etnias: europeus 67,8 · Māori 17,8 · asiáticos 17,3 · Pacífico 8,9",
+     "Expectativa de vida Māori 73,7/78,0 vs nacional 80,1/83,5 (período?)",
+     "≈40% dos Māori em áreas de maior privação (definição e período?)"
+    ]
+   },
+   {
+    "id": "politica",
+    "t": "Política",
+    "quem": "Arthur + Naely",
+    "lead": "Democracia representativa e monarquia constitucional, com Parlamento de câmara única.",
+    "dados": [
+     {
+      "valor": "2 votos",
+      "unidade": "por eleitor",
+      "periodo": "sistema em vigor",
+      "definicao": "No sistema MMP o eleitor vota em um candidato local e em um partido.",
+      "fonte": "NZ Parliament",
+      "status": "publicado"
+     },
+     {
+      "valor": "120",
+      "unidade": "cadeiras",
+      "periodo": "normalmente",
+      "definicao": "Tamanho usual da House of Representatives; pode haver cadeiras extras.",
+      "fonte": "NZ Parliament",
+      "status": "publicado"
+     },
+     {
+      "valor": "1840",
+      "unidade": "ano",
+      "periodo": "Tratado de Waitangi",
+      "definicao": "Tratado entre a Coroa e chefes Māori, base da relação entre eles.",
+      "fonte": "Ministry of Justice",
+      "status": "publicado"
+     }
+    ],
+    "texto": [
+     "Pessoas de descendência Māori podem escolher entre o registro eleitoral Māori e o geral.",
+     "O voto não é obrigatório, mas o registro é obrigatório para quem pode votar."
+    ],
+    "bruta": [
+     "33 parlamentares Māori em 2023 (recorde?) conferir"
+    ]
+   },
+   {
+    "id": "economia",
+    "t": "Economia",
+    "quem": "Miguel",
+    "lead": "Economia de renda alta, ligada às exportações, sobretudo de alimentos.",
+    "dados": [],
+    "texto": [
+     "Agricultura e pecuária (laticínios, carne, lã e frutas), turismo e tecnologia são setores centrais.",
+     "O coeficiente de Gini mede a desigualdade de renda, de 0 (igualdade total) a 1. A pobreza relativa conta quem vive abaixo de uma fração da renda mediana."
+    ],
+    "bruta": [
+     "PIB +1,7%: dizer se é anual ou trimestral e o período exato",
+     "Exportações alimentos/fibras NZ$64,3 bi (período?) · laticínios NZ$28,6 bi",
+     "Tecnologia ≈NZ$7 bi PIB / ≈NZ$10,7 bi exportações (período?)",
+     "Comércio exterior NZ$32,5 bi / 32,4 bi (período? trimestre?)",
+     "Gini 0,326 · pobreza relativa 14,3% (OECD, ano?)",
+     "Renda mediana Māori NZ$36.600 (ano e definição?)",
+     "Turismo: levantar dados"
+    ]
+   },
+   {
+    "id": "genero",
+    "t": "Gênero",
+    "quem": "Ana Clara",
+    "lead": "Igualdade de gênero tem várias dimensões: política, renda e trabalho de cuidado.",
+    "dados": [],
+    "texto": [
+     "A diferença salarial por hora compara o salário-hora mediano de mulheres e homens.",
+     "O trabalho não remunerado, como tarefas domésticas e cuidado de pessoas, costuma recair mais sobre as mulheres."
+    ],
+    "bruta": [
+     "Mulheres no Parlamento 45,5% (UN Women, ano?)",
+     "Diferença salarial por hora 5,3% (ano?)",
+     "Salário semanal mediano NZ$1.280 vs 1.538",
+     "Trabalho não remunerado 18,1% vs 10,6% do tempo"
+    ]
+   },
+   {
+    "id": "educacao",
+    "t": "Educação",
+    "quem": "Gabriel",
+    "lead": "Escola gratuita e obrigatória, com apoio dirigido a quem enfrenta mais barreiras.",
+    "dados": [
+     {
+      "valor": "6–16",
+      "unidade": "anos de idade",
+      "periodo": "educação obrigatória",
+      "definicao": "Faixa etária em que a escolarização é obrigatória.",
+      "fonte": "Ministry of Education",
+      "status": "publicado"
+     },
+     {
+      "valor": "5–19",
+      "unidade": "anos de idade",
+      "periodo": "educação estatal gratuita",
+      "definicao": "Para cidadãos e residentes permanentes.",
+      "fonte": "Ministry of Education",
+      "status": "publicado"
+     }
+    ],
+    "texto": [
+     "O ensino básico vai do Year 1 ao 8 (primary) e do 9 ao 13 (secondary).",
+     "Há educação em te reo Māori (Māori-medium) e um índice de equidade que orienta apoio às escolas segundo barreiras socioeconômicas."
+    ],
+    "bruta": [
+     "Schooling Equity Index: 37 variáveis (conferir)",
+     "PISA leitura 501 · matemática 479 · ciências 504 (ano?)",
+     "Ensino superior: levantar dados"
+    ]
+   }
+  ]
+ },
+ "clima": {
+  "lead": "A Nova Zelândia está aquecendo, e isso já aparece no mar, na neve e na chuva.",
+  "dados": [
+   {
+    "valor": "≈1,1 °C",
+    "unidade": "de aquecimento",
+    "periodo": "cerca de um século",
+    "definicao": "Aumento da temperatura média do país.",
+    "fonte": "Ministry for the Environment",
+    "status": "publicado"
+   }
+  ],
+  "texto": [
+   "Há menos neve e geleiras, o mar está mais alto e mais ácido, e o regime de chuvas mudou.",
+   "Em 2023, as enchentes de Auckland e o Ciclone Gabrielle causaram grandes danos e deslizamentos em várias regiões.",
+   "O clima também pressiona a biodiversidade: muitas espécies só existem na Nova Zelândia."
+  ],
+  "mais": [
+   "O Marco Nacional de Adaptação tem quatro pilares. A Climate Change Commission avalia que a adaptação avança mais devagar que o necessário."
+  ],
+  "bruta": [
+   "Danos Gabrielle NZ$9–14,5 bi (conferir)",
+   ">300.000 deslizamentos (conferir)",
+   "Projeções futuras: levantar"
+  ]
+ },
+ "des": {
+  "q": "O evento climático pode ser o mesmo. A capacidade de enfrentá-lo é igual?",
+  "lead": "Relatórios do governo neozelandês reconhecem que impactos climáticos podem reforçar desigualdades e atingir mais grupos vulneráveis e povos indígenas.",
+  "tabela": [
+   [
+    "Renda",
+    "reserva para se proteger e reconstruir",
+    "dinheiro para reparos e para o tempo sem renda"
+   ],
+   [
+    "Moradia",
+    "casa em área segura, bem mantida e segurada",
+    "casa em área de risco, sem seguro ou alugada"
+   ],
+   [
+    "Infraestrutura",
+    "estradas, energia e internet redundantes",
+    "áreas isoladas ficam mais tempo sem acesso"
+   ],
+   [
+    "Território",
+    "poder escolher onde morar",
+    "pouca escolha de onde viver"
+   ],
+   [
+    "Saúde e serviços",
+    "acesso rápido a atendimento",
+    "dependência de serviços que podem parar"
+   ],
+   [
+    "Povos indígenas",
+    "participação no planejamento e conhecimento local valorizado",
+    "maior exposição quando há desvantagem prévia"
+   ]
+  ],
+  "mais": [
+   "Ciclone Gabrielle (fevereiro de 2023): atingiu sobretudo o litoral norte e leste da Ilha Norte, incluindo Hawke's Bay, Tairāwhiti e Northland.",
+   "Onde o risco sobe, seguros encarecem ou deixam de cobrir, e quem tem menos renda sente mais."
+  ],
+  "bruta": [
+   "Dados de quem foi mais afetado no Gabrielle (Stats NZ, governo)",
+   "Seguros e retirada gerenciada: confirmar categorias e valores"
+  ]
+ },
+ "sol": {
+  "lead": "Adaptar bem significa proteger quem tem menos margem para se recuperar.",
+  "lista": [
+   "Planejar onde construir e, em casos extremos, retirar moradias de zonas de risco.",
+   "Restaurar áreas úmidas, florestas e dunas, que reduzem o impacto de enchentes e ondas.",
+   "Investir em estradas, energia e comunicação que continuem funcionando em emergências.",
+   "Incluir comunidades e grupos Māori (iwi e hapū) no planejamento local."
+  ],
+  "mais": [
+   "No dia a dia: kit de emergência, rotas de evacuação e atenção a vizinhos vulneráveis."
+  ],
+  "bruta": []
+ }
+}

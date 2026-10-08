@@ -1,0 +1,265 @@
+{
+ "intro": "A Oceania costuma ser dividida em quatro regiões: Australásia, Melanésia, Micronésia e Polinésia. Toque em uma região para ver seus países e o que a ameaça. A Nova Zelândia, em âmbar, é o país estudado pelo projeto.",
+ "fonte_geo": "Contornos: Natural Earth (domínio público), via pacote world-atlas. As regiões seguem o agrupamento convencional da ONU e não têm fronteira oficial.",
+ "regioes": [
+  {
+   "id": "australasia",
+   "nome": "Australásia",
+   "vista": [
+    112,
+    -8,
+    182,
+    -48
+   ],
+   "rot": [
+    137,
+    -33
+   ],
+   "descricao": "Austrália e Nova Zelândia. Na classificação usada pela ONU, formam a Australásia: as duas economias de renda alta e maior peso da região.",
+   "clima": "Calor extremo, secas e incêndios na Austrália; enchentes e ciclones na Nova Zelândia."
+  },
+  {
+   "id": "melanesia",
+   "nome": "Melanésia",
+   "vista": [
+    128,
+    4,
+    192,
+    -24
+   ],
+   "rot": [
+    166,
+    -2
+   ],
+   "descricao": "Arquipélagos do Pacífico Sudoeste, com enorme diversidade cultural e linguística. Inclui Papua-Nova Guiné, Ilhas Salomão, Vanuatu e Fiji.",
+   "clima": "Ciclones, deslizamentos e elevação do mar atingem comunidades costeiras que têm pouco recurso para reconstruir."
+  },
+  {
+   "id": "micronesia",
+   "nome": "Micronésia",
+   "vista": [
+    126,
+    14,
+    184,
+    -6
+   ],
+   "rot": [
+    152,
+    11
+   ],
+   "descricao": "Milhares de ilhas pequenas, muitas delas atóis, no Pacífico Noroeste e Central.",
+   "clima": "Em atóis baixos, a elevação do mar e a erosão ameaçam o próprio território."
+  },
+  {
+   "id": "polinesia",
+   "nome": "Polinésia",
+   "vista": [
+    166,
+    0,
+    215,
+    -48
+   ],
+   "rot": [
+    197,
+    -17
+   ],
+   "descricao": "Ilhas espalhadas num grande triângulo do Pacífico, entre o Havaí, a Nova Zelândia e a Ilha de Páscoa. Os povos têm origens e línguas aparentadas, incluindo os Māori.",
+   "clima": "Ciclones e elevação do mar atingem ilhas pequenas, com pouca margem de proteção."
+  }
+ ],
+ "locais": [
+  {
+   "id": "nova-zelandia",
+   "nome": "Nova Zelândia",
+   "iso": "554",
+   "regiao": "australasia",
+   "lon": 173,
+   "lat": -41,
+   "descricao": "Estudo de caso do projeto: país de renda alta, instituições fortes e uma população Māori numerosa.",
+   "clima": "Aquecimento, enchentes e ciclones, como o Gabrielle em 2023.",
+   "desigualdade": "Mesmo com recursos, os impactos podem pesar mais sobre grupos vulneráveis e povos indígenas.",
+   "vista": [
+    158,
+    -28,
+    188,
+    -50
+   ],
+   "links": [
+    [
+     "Sociedade e população",
+     "#nova-zelandia/sociedade"
+    ],
+    [
+     "Política",
+     "#nova-zelandia/politica"
+    ],
+    [
+     "Economia",
+     "#nova-zelandia/economia"
+    ],
+    [
+     "Educação",
+     "#nova-zelandia/educacao"
+    ],
+    [
+     "Gênero",
+     "#nova-zelandia/genero"
+    ],
+    [
+     "Mudanças climáticas",
+     "#clima"
+    ],
+    [
+     "Quem sente mais?",
+     "#desigualdade"
+    ]
+   ],
+   "nota": "Na classificação da ONU, a Nova Zelândia está na Australásia. Também é o vértice sudoeste do triângulo polinésio, e o povo Māori tem origem polinésia.",
+   "en": "New Zealand"
+  },
+  {
+   "id": "australia",
+   "nome": "Austrália",
+   "iso": "036",
+   "regiao": "australasia",
+   "lon": 134,
+   "lat": -25,
+   "descricao": "Maior país da região e economia de renda alta.",
+   "clima": "Secas, incêndios florestais e ondas de calor estão entre os riscos.",
+   "desigualdade": "A capacidade de adaptação varia entre regiões e comunidades.",
+   "en": "Australia"
+  },
+  {
+   "id": "png",
+   "nome": "Papua-Nova Guiné",
+   "iso": "598",
+   "regiao": "melanesia",
+   "lon": 144,
+   "lat": -6.3,
+   "descricao": "Metade leste da ilha de Nova Guiné e arquipélagos, com grande diversidade cultural.",
+   "clima": "Chuvas intensas, deslizamentos e elevação do mar afetam comunidades costeiras.",
+   "desigualdade": "Recursos limitados tornam a recuperação mais lenta.",
+   "en": "Papua New Guinea"
+  },
+  {
+   "id": "salomao",
+   "nome": "Ilhas Salomão",
+   "iso": "090",
+   "regiao": "melanesia",
+   "lon": 160,
+   "lat": -9.6,
+   "descricao": "Arquipélago da Melanésia com centenas de ilhas.",
+   "clima": "Ciclones e elevação do mar afetam comunidades costeiras.",
+   "desigualdade": "Comunidades pequenas e dispersas têm mais dificuldade de receber ajuda depois de um evento extremo.",
+   "en": "Solomon Is."
+  },
+  {
+   "id": "vanuatu",
+   "nome": "Vanuatu",
+   "iso": "548",
+   "regiao": "melanesia",
+   "lon": 166.9,
+   "lat": -15.4,
+   "descricao": "Arquipélago vulcânico da Melanésia.",
+   "clima": "Ciclones intensos, como o Pam em 2015.",
+   "desigualdade": "Depender de poucos recursos dificulta reconstruir depois do evento.",
+   "en": "Vanuatu"
+  },
+  {
+   "id": "fiji",
+   "nome": "Fiji",
+   "iso": "242",
+   "regiao": "melanesia",
+   "lon": 178.1,
+   "lat": -17.7,
+   "descricao": "Arquipélago com centenas de ilhas.",
+   "clima": "Ciclones e elevação do mar afetam comunidades costeiras.",
+   "desigualdade": "Comunidades costeiras podem precisar mudar de lugar, e nem todas têm os mesmos meios.",
+   "en": "Fiji"
+  },
+  {
+   "id": "palau",
+   "nome": "Palau",
+   "iso": "585",
+   "regiao": "micronesia",
+   "lon": 134.6,
+   "lat": 7.5,
+   "descricao": "Arquipélago da Micronésia, conhecido pelos recifes de coral.",
+   "clima": "Elevação do mar e aquecimento dos oceanos ameaçam ilhas e recifes.",
+   "desigualdade": "Economia pequena e território limitado reduzem as alternativas de adaptação.",
+   "en": "Palau"
+  },
+  {
+   "id": "micronesia-fed",
+   "nome": "Estados Federados da Micronésia",
+   "iso": "583",
+   "regiao": "micronesia",
+   "lon": 158.2,
+   "lat": 6.9,
+   "descricao": "Estados formados por ilhas e atóis da Micronésia.",
+   "clima": "Tufões, elevação do mar e erosão costeira.",
+   "desigualdade": "Ilhas distantes entre si dificultam apoio e reconstrução.",
+   "en": "Micronesia"
+  },
+  {
+   "id": "marshall",
+   "nome": "Ilhas Marshall",
+   "iso": "584",
+   "regiao": "micronesia",
+   "lon": 171.2,
+   "lat": 7.1,
+   "descricao": "Atóis e ilhas baixas da Micronésia.",
+   "clima": "Ondas, erosão e elevação do mar.",
+   "desigualdade": "Território baixo e recursos limitados aumentam a exposição.",
+   "en": "Marshall Is."
+  },
+  {
+   "id": "kiribati",
+   "nome": "Kiribati",
+   "iso": "296",
+   "regiao": "micronesia",
+   "lon": 173,
+   "lat": 1.45,
+   "descricao": "Atóis espalhados por uma área enorme do Pacífico.",
+   "clima": "Elevação do mar e salinização da água doce.",
+   "desigualdade": "Entre os países mais expostos à elevação do mar, com poucas alternativas de território.",
+   "en": "Kiribati"
+  },
+  {
+   "id": "tuvalu",
+   "nome": "Tuvalu",
+   "iso": "798",
+   "regiao": "polinesia",
+   "lon": 179.2,
+   "lat": -8.5,
+   "descricao": "Pequeno país formado por atóis baixos.",
+   "clima": "Elevação do mar, ondas e salinização da água doce são ameaças diretas.",
+   "desigualdade": "Emite muito pouco gás de efeito estufa, mas sente os efeitos cedo.",
+   "en": "Tuvalu"
+  },
+  {
+   "id": "samoa",
+   "nome": "Samoa",
+   "iso": "882",
+   "regiao": "polinesia",
+   "lon": 188,
+   "lat": -13.8,
+   "descricao": "Ilhas vulcânicas da Polinésia.",
+   "clima": "Ciclones e elevação do mar.",
+   "desigualdade": "Comunidades costeiras concentram população e infraestrutura expostas.",
+   "en": "Samoa"
+  },
+  {
+   "id": "tonga",
+   "nome": "Tonga",
+   "iso": "776",
+   "regiao": "polinesia",
+   "lon": 184.8,
+   "lat": -21.2,
+   "descricao": "Arquipélago da Polinésia.",
+   "clima": "Ciclones e elevação do mar.",
+   "desigualdade": "Ilhas pequenas têm pouca margem para se proteger.",
+   "en": "Tonga"
+  }
+ ]
+}

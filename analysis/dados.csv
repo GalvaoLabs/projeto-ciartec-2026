@@ -1,0 +1,7 @@
+id,indicador,grupo,subgrupo,valor,unidade,periodo,fonte,url,status
+vida-1,expectativa_vida,Média nacional,Homens,80.1,anos,,Ministry of Health,https://www.health.govt.nz,bruta
+vida-2,expectativa_vida,Média nacional,Mulheres,83.5,anos,,Ministry of Health,https://www.health.govt.nz,bruta
+vida-3,expectativa_vida,Māori,Homens,73.7,anos,,Ministry of Health,https://www.health.govt.nz,bruta
+vida-4,expectativa_vida,Māori,Mulheres,78.0,anos,,Ministry of Health,https://www.health.govt.nz,bruta
+sal-1,salario_semanal_mediano,Homens,Todos,1538,NZ$ por semana,,Stats NZ,https://www.stats.govt.nz,bruta
+sal-2,salario_semanal_mediano,Mulheres,Todos,1280,NZ$ por semana,,Stats NZ,https://www.stats.govt.nz,bruta

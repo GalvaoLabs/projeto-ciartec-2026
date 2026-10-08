@@ -1,0 +1,57 @@
+[
+ {
+  "q": "Em que ano o Ciclone Gabrielle atingiu a Nova Zelândia?",
+  "o": [
+   "2015",
+   "2019",
+   "2023",
+   "2025"
+  ],
+  "c": 2,
+  "e": "Fevereiro de 2023."
+ },
+ {
+  "q": "Em quantas grandes regiões a Oceania é tradicionalmente dividida?",
+  "o": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "c": 2,
+  "e": "Australásia, Melanésia, Micronésia e Polinésia."
+ },
+ {
+  "q": "Quanto a Nova Zelândia aqueceu em cerca de um século?",
+  "o": [
+   "≈0,1 °C",
+   "≈1,1 °C",
+   "≈5 °C",
+   "≈10 °C"
+  ],
+  "c": 1,
+  "e": "Aproximadamente 1,1 °C, segundo o Ministry for the Environment."
+ },
+ {
+  "q": "Qual tratado de 1840 é marco da relação entre a Coroa e os Māori?",
+  "o": [
+   "Versalhes",
+   "Tordesilhas",
+   "Waitangi",
+   "Paris"
+  ],
+  "c": 2,
+  "e": "O Tratado de Waitangi."
+ },
+ {
+  "q": "Como a Climate Change Commission avalia o ritmo da adaptação?",
+  "o": [
+   "Mais rápido que o necessário",
+   "Concluída",
+   "Mais lento que o necessário",
+   "Não avaliado"
+  ],
+  "c": 2,
+  "e": "A adaptação avança mais lentamente que o necessário."
+ }
+]

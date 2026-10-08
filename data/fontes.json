@@ -1,0 +1,90 @@
+[
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "Censo 2023",
+  "ano": "2023",
+  "url": "https://www.stats.govt.nz",
+  "acesso": "",
+  "sustenta": "População, etnia e indicadores econômicos"
+ },
+ {
+  "instituicao": "Ministry for the Environment",
+  "titulo": "Clima, adaptação e Ciclone Gabrielle",
+  "ano": "",
+  "url": "https://environment.govt.nz",
+  "acesso": "",
+  "sustenta": "Aquecimento, eventos extremos e adaptação"
+ },
+ {
+  "instituicao": "Climate Change Commission",
+  "titulo": "Avaliação da adaptação",
+  "ano": "",
+  "url": "https://www.climatecommission.govt.nz",
+  "acesso": "",
+  "sustenta": "Ritmo da adaptação climática"
+ },
+ {
+  "instituicao": "IPCC",
+  "titulo": "Relatórios sobre Pacífico e pequenas ilhas",
+  "ano": "",
+  "url": "https://www.ipcc.ch",
+  "acesso": "",
+  "sustenta": "Impactos nas ilhas do Pacífico"
+ },
+ {
+  "instituicao": "NZ Parliament",
+  "titulo": "Sistema político",
+  "ano": "",
+  "url": "https://www.parliament.nz",
+  "acesso": "",
+  "sustenta": "MMP, Parlamento e instituições"
+ },
+ {
+  "instituicao": "Elections NZ",
+  "titulo": "Registro eleitoral",
+  "ano": "",
+  "url": "https://elections.nz",
+  "acesso": "",
+  "sustenta": "Voto e registros Māori e geral"
+ },
+ {
+  "instituicao": "Ministry of Education",
+  "titulo": "Sistema educacional",
+  "ano": "",
+  "url": "https://www.education.govt.nz",
+  "acesso": "",
+  "sustenta": "Idades, etapas e ensino Māori-medium"
+ },
+ {
+  "instituicao": "Ministry of Health",
+  "titulo": "Desigualdades em saúde",
+  "ano": "",
+  "url": "https://www.health.govt.nz",
+  "acesso": "",
+  "sustenta": "Saúde e privação socioeconômica"
+ },
+ {
+  "instituicao": "OECD",
+  "titulo": "Indicadores comparados",
+  "ano": "",
+  "url": "https://www.oecd.org",
+  "acesso": "",
+  "sustenta": "Gini, pobreza e PISA"
+ },
+ {
+  "instituicao": "UN Women",
+  "titulo": "Gênero",
+  "ano": "",
+  "url": "https://www.unwomen.org",
+  "acesso": "",
+  "sustenta": "Participação política e trabalho"
+ },
+ {
+  "instituicao": "MPI",
+  "titulo": "Exportações primárias",
+  "ano": "",
+  "url": "https://www.mpi.govt.nz",
+  "acesso": "",
+  "sustenta": "Agricultura e exportações"
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "expectativa-vida",
+  "dimensao": "sociedade",
+  "titulo": "Expectativa de vida: Māori e média nacional",
+  "pergunta": "A média nacional representa igualmente todos os grupos?",
+  "unidade": "anos",
+  "periodo": "a definir",
+  "fonte": "Ministry of Health",
+  "explicacao": "A média nacional não representa todos os grupos: a expectativa de vida Māori é 6.4 anos menor para homens e 5.5 anos menor para mulheres.",
+  "arquivo": "assets/charts/expectativa-vida.svg",
+  "alt": "Gráfico de barras: Expectativa de vida: Māori e média nacional",
+  "status": "bruta"
+ },
+ {
+  "id": "salario-semanal",
+  "dimensao": "genero",
+  "titulo": "Salário semanal mediano por gênero",
+  "pergunta": "Homens e mulheres recebem o mesmo?",
+  "unidade": "NZ$ por semana",
+  "periodo": "a definir",
+  "fonte": "Stats NZ",
+  "explicacao": "O salário semanal mediano das mulheres equivale a 83.2% do dos homens (mediana semanal, que difere da diferença por hora).",
+  "arquivo": "assets/charts/salario-semanal.svg",
+  "alt": "Gráfico de barras: Salário semanal mediano por gênero",
+  "status": "bruta"
+ }
+]
