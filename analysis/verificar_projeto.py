@@ -9,7 +9,7 @@ def le(p):
     except Exception as e: erros.append(f"{p}: JSON inválido ({e})"); return None
 C, Q, F, M, G = (le(f"data/{n}.json") for n in ["conteudo", "quiz", "fontes", "mapa", "graficos"])
 if Q:
-    if len(Q) != 5: erros.append(f"quiz tem {len(Q)} questões (esperado 5)")
+    if len(Q) < 5: erros.append(f"quiz tem {len(Q)} questões (mínimo 5)")
     for i, q in enumerate(Q, 1):
         if not (q.get("q") and q.get("e") and len(q.get("o", [])) >= 2 and 0 <= q.get("c", -1) < len(q["o"])): erros.append(f"quiz {i}: estrutura inválida")
 html = (R / "index.html").read_text(encoding="utf-8")

@@ -1,7 +1,7 @@
 id,indicador,grupo,subgrupo,valor,unidade,periodo,fonte,url,status
-vida-1,expectativa_vida,Média nacional,Homens,80.1,anos,,Ministry of Health,https://www.health.govt.nz,bruta
-vida-2,expectativa_vida,Média nacional,Mulheres,83.5,anos,,Ministry of Health,https://www.health.govt.nz,bruta
-vida-3,expectativa_vida,Māori,Homens,73.7,anos,,Ministry of Health,https://www.health.govt.nz,bruta
-vida-4,expectativa_vida,Māori,Mulheres,78.0,anos,,Ministry of Health,https://www.health.govt.nz,bruta
-sal-1,salario_semanal_mediano,Homens,Todos,1538,NZ$ por semana,,Stats NZ,https://www.stats.govt.nz,bruta
-sal-2,salario_semanal_mediano,Mulheres,Todos,1280,NZ$ por semana,,Stats NZ,https://www.stats.govt.nz,bruta
+vida-1,expectativa_vida,Média nacional,Homens,80.1,anos,2022–2024,Stats NZ,https://www.stats.govt.nz/information-releases/national-and-subnational-period-life-tables-2022-2024/,verificado
+vida-2,expectativa_vida,Média nacional,Mulheres,83.5,anos,2022–2024,Stats NZ,https://www.stats.govt.nz/information-releases/national-and-subnational-period-life-tables-2022-2024/,verificado
+vida-3,expectativa_vida,Māori,Homens,73.7,anos,2022–2024,Stats NZ,https://www.stats.govt.nz/information-releases/national-and-subnational-period-life-tables-2022-2024/,verificado
+vida-4,expectativa_vida,Māori,Mulheres,78.0,anos,2022–2024,Stats NZ,https://www.stats.govt.nz/information-releases/national-and-subnational-period-life-tables-2022-2024/,verificado
+sal-1,salario_semanal_mediano,Homens,Todos,1538,NZ$ por semana,Trimestre de jun./2026,Stats NZ,https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/,verificado
+sal-2,salario_semanal_mediano,Mulheres,Todos,1280,NZ$ por semana,Trimestre de jun./2026,Stats NZ,https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/,verificado

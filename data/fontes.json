@@ -1,27 +1,195 @@
 [
  {
   "instituicao": "Stats NZ",
-  "titulo": "Censo 2023",
+  "titulo": "Censo 2023: ascendência Māori e população",
+  "ano": "2024",
+  "url": "https://www.stats.govt.nz/infographics/people-of-maori-descent-living-in-aotearoa-new-zealand/",
+  "acesso": "2026-10-09",
+  "sustenta": "População, etnia, ascendência e renda Māori"
+ },
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "Tábuas de vida nacionais e subnacionais: 2022–2024",
+  "ano": "2025",
+  "url": "https://www.stats.govt.nz/information-releases/national-and-subnational-period-life-tables-2022-2024/",
+  "acesso": "2026-10-09",
+  "sustenta": "Expectativa de vida"
+ },
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "Gross domestic product: June 2026 quarter",
+  "ano": "2026",
+  "url": "https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/",
+  "acesso": "2026-10-09",
+  "sustenta": "PIB"
+ },
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "International trade: June 2026 quarter",
+  "ano": "2026",
+  "url": "https://www.stats.govt.nz/information-releases/international-trade-june-2026-quarter/",
+  "acesso": "2026-10-09",
+  "sustenta": "Exportações e importações"
+ },
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "International travel: June 2026",
+  "ano": "2026",
+  "url": "https://www.stats.govt.nz/information-releases/international-travel-june-2026/",
+  "acesso": "2026-10-09",
+  "sustenta": "Visitantes estrangeiros"
+ },
+ {
+  "instituicao": "Stats NZ",
+  "titulo": "Labour market statistics (income): June 2026 quarter",
+  "ano": "2026",
+  "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/",
+  "acesso": "2026-10-09",
+  "sustenta": "Diferença salarial e salário semanal por gênero"
+ },
+ {
+  "instituicao": "Ministry for Primary Industries",
+  "titulo": "Situation and Outlook for Primary Industries (SOPI), junho de 2026",
+  "ano": "2026",
+  "url": "https://www.mpi.govt.nz/resources-and-forms/economic-intelligence/situation-and-outlook-for-primary-industries",
+  "acesso": "2026-10-09",
+  "sustenta": "Exportações de alimentos, fibras e laticínios"
+ },
+ {
+  "instituicao": "MBIE",
+  "titulo": "Digital technologies industry transformation plan: sector overview",
+  "ano": "",
+  "url": "https://www.mbie.govt.nz/business-and-employment/economic-growth/digital-policy/digital-technologies-industry-transformation-plan-2/sector-overview",
+  "acesso": "2026-10-09",
+  "sustenta": "Valor agregado das tecnologias digitais"
+ },
+ {
+  "instituicao": "NZTE",
+  "titulo": "Solutions Insights: Deep-tech",
+  "ano": "",
+  "url": "https://www.nzte.govt.nz/blog/solutions-insights-october-deep-tech",
+  "acesso": "2026-10-09",
+  "sustenta": "Exportações de tecnologia (Stats NZ)"
+ },
+ {
+  "instituicao": "OECD",
+  "titulo": "Addressing Inequality in Budgeting: o caso da Nova Zelândia",
+  "ano": "",
+  "url": "https://oecd.org/en/publications/addressing-inequality-in-budgeting_ea80d61d-en/full-report/component-11.html",
+  "acesso": "2026-10-09",
+  "sustenta": "Gini antes e depois de impostos"
+ },
+ {
+  "instituicao": "OECD",
+  "titulo": "PISA 2022 Results: Country Notes: New Zealand",
   "ano": "2023",
-  "url": "https://www.stats.govt.nz",
-  "acesso": "",
-  "sustenta": "População, etnia e indicadores econômicos"
+  "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/new-zealand_33941739-en",
+  "acesso": "2026-10-09",
+  "sustenta": "Desempenho no PISA 2022"
+ },
+ {
+  "instituicao": "Ministry of Education",
+  "titulo": "The Equity Index (EQI)",
+  "ano": "",
+  "url": "https://education.govt.nz/news/the-equity-index-eqi",
+  "acesso": "2026-10-09",
+  "sustenta": "Equity Index e seus 37 fatores"
+ },
+ {
+  "instituicao": "Education Counts",
+  "titulo": "Tertiary participation e Tertiary achievement and attainment",
+  "ano": "2026",
+  "url": "https://www.educationcounts.govt.nz/statistics/tertiary-participation",
+  "acesso": "2026-10-09",
+  "sustenta": "Matrículas, conclusão e qualificação superior"
+ },
+ {
+  "instituicao": "IPU Parline",
+  "titulo": "New Zealand: House of Representatives, dados sobre mulheres",
+  "ano": "2025",
+  "url": "https://data.ipu.org/parliament/NZ/NZ-LC01/data-on-women/",
+  "acesso": "2026-10-09",
+  "sustenta": "Mulheres no Parlamento"
+ },
+ {
+  "instituicao": "UN Women",
+  "titulo": "Women Count: New Zealand country fact sheet",
+  "ano": "",
+  "url": "https://data.unwomen.org/country/new-zealand",
+  "acesso": "2026-10-09",
+  "sustenta": "Tempo de trabalho não remunerado"
+ },
+ {
+  "instituicao": "Treasury NZ (via governo)",
+  "titulo": "Government rules out cyclone levy in no-frills Budget",
+  "ano": "2023",
+  "url": "https://www.beehive.govt.nz/release/government-rules-out-cyclone-levy-no-frills-budget",
+  "acesso": "2026-10-09",
+  "sustenta": "Estimativa de danos de Gabrielle e das enchentes de Auckland"
+ },
+ {
+  "instituicao": "Manaaki Whenua / Ministry for the Environment",
+  "titulo": "Report provides useful data about East Coast landslides",
+  "ano": "2023",
+  "url": "https://environment.govt.nz/news/report-provides-useful-data-about-east-coast-landslides/",
+  "acesso": "2026-10-09",
+  "sustenta": "Mais de 300 mil deslizamentos"
+ },
+ {
+  "instituicao": "GNS Science / GeoNet",
+  "titulo": "Over 140k landslides mapped following Cyclone Gabrielle",
+  "ano": "2023",
+  "url": "https://geonet.org.nz/news/4OeHpYPDO4f19HicJA0Lj7",
+  "acesso": "2026-10-09",
+  "sustenta": "Mapeamento de deslizamentos"
  },
  {
   "instituicao": "Ministry for the Environment",
-  "titulo": "Clima, adaptação e Ciclone Gabrielle",
-  "ano": "",
-  "url": "https://environment.govt.nz",
-  "acesso": "",
-  "sustenta": "Aquecimento, eventos extremos e adaptação"
+  "titulo": "Aotearoa New Zealand climate change projections guidance",
+  "ano": "2021",
+  "url": "https://environment.govt.nz/assets/publications/Climate-Change-Projections-Guidance-FINAL.pdf",
+  "acesso": "2026-10-09",
+  "sustenta": "Aquecimento de 1,1 °C"
  },
  {
-  "instituicao": "Climate Change Commission",
-  "titulo": "Avaliação da adaptação",
+  "instituicao": "IDMC",
+  "titulo": "New Zealand: disaster resilience and tailored responses mitigate impact of Cyclone Gabrielle",
+  "ano": "2023",
+  "url": "https://www.internal-displacement.org/spotlights/new-zealand-disaster-resilience-and-tailored-responses-mitigate-impact-of-cyclone-gabrielle/",
+  "acesso": "2026-10-09",
+  "sustenta": "Famílias Māori entre os domicílios danificados em Wairoa"
+ },
+ {
+  "instituicao": "Auckland Council",
+  "titulo": "Categorisation update, 19 February 2025",
+  "ano": "2025",
+  "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2025/02/categorisation-update-19-february-2025/",
+  "acesso": "2026-10-09",
+  "sustenta": "Imóveis na Categoria 3 em Auckland"
+ },
+ {
+  "instituicao": "Kōtuitui: New Zealand Journal of Social Sciences Online",
+  "titulo": "Lacey (2026): privação socioeconômica entre Māori e europeus, 1991, 2001 e 2023",
+  "ano": "2026",
+  "url": "https://rsnz.onlinelibrary.wiley.com/doi/full/10.1002/kot2.70007",
+  "acesso": "2026-10-09",
+  "sustenta": "Parcela dos Māori nas áreas mais privadas"
+ },
+ {
+  "instituicao": "NZ Parliament / Elections NZ",
+  "titulo": "Sistema eleitoral MMP e registros eleitorais",
   "ano": "",
-  "url": "https://www.climatecommission.govt.nz",
+  "url": "https://www.parliament.nz",
   "acesso": "",
-  "sustenta": "Ritmo da adaptação climática"
+  "sustenta": "MMP, Parlamento e instituições"
+ },
+ {
+  "instituicao": "Ministry of Education",
+  "titulo": "Sistema educacional e idades de escolaridade",
+  "ano": "",
+  "url": "https://www.education.govt.nz",
+  "acesso": "",
+  "sustenta": "Idades e etapas de ensino"
  },
  {
   "instituicao": "IPCC",
@@ -32,59 +200,11 @@
   "sustenta": "Impactos nas ilhas do Pacífico"
  },
  {
-  "instituicao": "NZ Parliament",
-  "titulo": "Sistema político",
+  "instituicao": "UNESCO",
+  "titulo": "Diversidade cultural e natural da Oceania",
   "ano": "",
-  "url": "https://www.parliament.nz",
+  "url": "https://www.unesco.org",
   "acesso": "",
-  "sustenta": "MMP, Parlamento e instituições"
- },
- {
-  "instituicao": "Elections NZ",
-  "titulo": "Registro eleitoral",
-  "ano": "",
-  "url": "https://elections.nz",
-  "acesso": "",
-  "sustenta": "Voto e registros Māori e geral"
- },
- {
-  "instituicao": "Ministry of Education",
-  "titulo": "Sistema educacional",
-  "ano": "",
-  "url": "https://www.education.govt.nz",
-  "acesso": "",
-  "sustenta": "Idades, etapas e ensino Māori-medium"
- },
- {
-  "instituicao": "Ministry of Health",
-  "titulo": "Desigualdades em saúde",
-  "ano": "",
-  "url": "https://www.health.govt.nz",
-  "acesso": "",
-  "sustenta": "Saúde e privação socioeconômica"
- },
- {
-  "instituicao": "OECD",
-  "titulo": "Indicadores comparados",
-  "ano": "",
-  "url": "https://www.oecd.org",
-  "acesso": "",
-  "sustenta": "Gini, pobreza e PISA"
- },
- {
-  "instituicao": "UN Women",
-  "titulo": "Gênero",
-  "ano": "",
-  "url": "https://www.unwomen.org",
-  "acesso": "",
-  "sustenta": "Participação política e trabalho"
- },
- {
-  "instituicao": "MPI",
-  "titulo": "Exportações primárias",
-  "ano": "",
-  "url": "https://www.mpi.govt.nz",
-  "acesso": "",
-  "sustenta": "Agricultura e exportações"
+  "sustenta": "Diversidade da região"
  }
 ]

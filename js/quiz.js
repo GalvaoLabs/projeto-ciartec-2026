@@ -1,7 +1,9 @@
 /* Estado do quiz: guardado só em memória, durante a visita à página.
    Sem localStorage, sem backend: a pontuação é calculada a partir das respostas e some ao recarregar. */
-const QZ={i:0,resp:[],fin:false};
-const quizReset=()=>{QZ.i=0;QZ.resp=[];QZ.fin=false};
+const QZ={i:0,resp:[],fin:false,ord:null};
+const quizReset=()=>{QZ.i=0;QZ.resp=[];QZ.fin=false;QZ.ord=null};
+/* Ordem das opções: sorteada a cada tentativa e mantida até o fim dela. Perguntas com "fixo":true (números, anos) não embaralham. A resposta é sempre guardada pelo índice ORIGINAL da opção. */
+function quizOrdem(Q){if(!QZ.ord||QZ.ord.length!==Q.length)QZ.ord=Q.map(q=>{const a=q.o.map((_,k)=>k);if(!q.fixo)for(let x=a.length-1;x>0;x--){const r=Math.floor(Math.random()*(x+1));[a[x],a[r]]=[a[r],a[x]]}return a});return QZ.ord}
 const quizPontos=Q=>QZ.resp.reduce((s,k,i)=>s+(k===Q[i].c?1:0),0);
 function quizResponder(Q,k){if(QZ.fin||QZ.resp[QZ.i]!==undefined||!(k>=0&&k<Q[QZ.i].o.length))return false;QZ.resp[QZ.i]=k;return true}
 function quizAvancar(Q){if(QZ.fin||QZ.resp[QZ.i]===undefined)return false;if(QZ.i<Q.length-1)QZ.i++;else QZ.fin=true;return true}
@@ -18,7 +20,7 @@ function renderQuiz(box,Q){const n=Q.length;
    box.querySelector('#rf').onclick=()=>{quizReset();draw()};box.querySelector('#qh').focus();return}
   const i=QZ.i,q=Q[i],a=QZ.resp[i],feito=a!==undefined;
   box.innerHTML=`<div class="qp" role="progressbar" aria-label="Progresso do quiz" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${i+(feito?1:0)}"><i style="width:${(i+(feito?1:0))/n*100}%"></i></div><p class="draft">Pergunta ${i+1} de ${n}</p><p class="q">${q.q}</p>`;
-  q.o.forEach((t,k)=>{const b=document.createElement('button');b.className='opt'+(feito?(k===q.c?' ok':k===a?' no':''):'');b.textContent=t;b.disabled=feito;b.onclick=()=>{if(quizResponder(Q,k)){draw();const x=box.querySelector('#nx');x&&x.focus()}};box.append(b)});
+  quizOrdem(Q)[i].forEach(k=>{const t=q.o[k];const b=document.createElement('button');b.className='opt'+(feito?(k===q.c?' ok':k===a?' no':''):'');b.textContent=t;b.disabled=feito;b.onclick=()=>{if(quizResponder(Q,k)){draw();const x=box.querySelector('#nx');x&&x.focus()}};box.append(b)});
   if(feito){const f=document.createElement('div');f.className='fb';f.setAttribute('role','status');f.innerHTML=`<b>${a===q.c?'Correto!':'Não foi dessa vez.'}</b> ${q.e}<br>`;
    const nx=document.createElement('button');nx.className='go';nx.id='nx';nx.textContent=i<n-1?'Próxima':'Ver resultado';nx.onclick=()=>{if(quizAvancar(Q))draw()};f.append(nx);box.append(f)}};
  draw()}

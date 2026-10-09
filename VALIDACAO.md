@@ -1,6 +1,7 @@
-# Pesquisa bruta x conteudo publicado
-- Itens com "status":"publicado" em data/conteudo.json aparecem no site. Os demais ficam em "bruta" e so aparecem com ?dev.
-- Antes da feira: confira cada dado "publicado" na fonte original, preencha ano/acesso em data/fontes.json e, para cada item de "bruta" confirmado, converta em objeto com valor, unidade, periodo, definicao, fonte e status "publicado".
-- Economia e Genero estao sem numeros publicados ate essa conferencia (principalmente: tipo de crescimento do PIB e periodo de cada valor).
-- Mapa (data/mapa.json): textos qualitativos, sem números; confira com IPCC e fontes nacionais antes da feira. Coordenadas são aproximadas.
-- Graficos: so aparecem no site quando todas as linhas de analysis/dados.csv estao com status=verificado e periodo preenchido (veja analysis/README.md).
+# Pesquisa bruta x conteúdo publicado
+- Itens com "status":"publicado" em data/conteudo.json aparecem no site. O restante fica em "bruta" e só aparece com ?dev.
+- Dados conferidos em fontes oficiais em 9/10/2026 (data de acesso registrada em data/fontes.json): Censo 2023, expectativa de vida 2022–2024, PIB do trimestre de jun./2026, comércio exterior do trimestre de jun./2026, exportações agrícolas (previsão do MPI), renda Māori, diferença salarial e salário semanal por gênero (trim. jun./2026), mulheres no Parlamento (IPU), PISA 2022, Equity Index (37 fatores), ensino superior 2025, danos, seguros, deslizamentos e categorias do Gabrielle.
+- Ainda em "bruta": Gini 0,326 e pobreza de 14,3% (não localizados na OECD), PISA mais recente (uma única reportagem) e o relatório Our Atmosphere and Climate 2026 (só por reportagens). Abra a fonte original antes de publicar.
+- Cuidados de leitura: 64,3 bi e 28,6 bi são previsões do MPI; 32,5 bi e 32,4 bi são do trimestre; o intervalo de 9 a 14,5 bi soma as enchentes de Auckland e o Gabrielle; o dado de trabalho não remunerado é de 2009/10; o percentual de mulheres no Parlamento muda conforme a data.
+- Gráficos (analysis/dados.csv): só vão ao site quando todas as linhas estão "verificado" e com período. Rode `python analysis/analisar_dados.py` depois de qualquer mudança.
+- Mapa (data/mapa.json): textos qualitativos, sem números; confira com IPCC e fontes nacionais antes da feira.

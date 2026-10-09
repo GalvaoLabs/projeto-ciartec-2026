@@ -8,7 +8,8 @@
    "2025"
   ],
   "c": 2,
-  "e": "Fevereiro de 2023."
+  "e": "Fevereiro de 2023. As enchentes de Auckland e o Ciclone Gabrielle causaram grandes danos e deslizamentos no país.",
+  "fixo": true
  },
  {
   "q": "Em quantas grandes regiões a Oceania é tradicionalmente dividida?",
@@ -19,18 +20,20 @@
    "6"
   ],
   "c": 2,
-  "e": "Australásia, Melanésia, Micronésia e Polinésia."
+  "e": "Australásia, Melanésia, Micronésia e Polinésia.",
+  "fixo": true
  },
  {
   "q": "Quanto a Nova Zelândia aqueceu em cerca de um século?",
   "o": [
-   "≈0,1 °C",
+   "≈0,3 °C",
    "≈1,1 °C",
-   "≈5 °C",
-   "≈10 °C"
+   "≈2,5 °C",
+   "≈4,0 °C"
   ],
   "c": 1,
-  "e": "Aproximadamente 1,1 °C, segundo o Ministry for the Environment."
+  "e": "Aproximadamente 1,1 °C, segundo o Ministry for the Environment.",
+  "fixo": true
  },
  {
   "q": "Qual tratado de 1840 é marco da relação entre a Coroa e os Māori?",
@@ -41,10 +44,10 @@
    "Paris"
   ],
   "c": 2,
-  "e": "O Tratado de Waitangi."
+  "e": "O Tratado de Waitangi (Te Tiriti o Waitangi)."
  },
  {
-  "q": "Como a Climate Change Commission avalia o ritmo da adaptação?",
+  "q": "Como a Climate Change Commission avalia o ritmo da adaptação na Nova Zelândia?",
   "o": [
    "Mais rápido que o necessário",
    "Concluída",
@@ -53,5 +56,60 @@
   ],
   "c": 2,
   "e": "A adaptação avança mais lentamente que o necessário."
+ },
+ {
+  "q": "Por que ilhas baixas do Pacífico estão especialmente expostas às mudanças climáticas?",
+  "o": [
+   "Porque são as maiores emissoras de gases de efeito estufa do mundo",
+   "Elevação do mar, erosão e ciclones, apesar de emitirem pouco",
+   "Porque não há comunidades que dependam do litoral",
+   "Porque o clima tropical impede qualquer adaptação"
+  ],
+  "c": 1,
+  "e": "Nações de atóis e ilhas baixas emitem muito pouco, mas sofrem cedo com subida do mar, erosão e eventos extremos."
+ },
+ {
+  "q": "Na metáfora da simulação de tempestade, o que faz a diferença entre as duas casas?",
+  "o": [
+   "A cor do telhado de cada casa",
+   "A quantidade de chuva que cai em cada lado",
+   "Os recursos, o terreno e a capacidade de se recuperar",
+   "O fato de uma das casas ser bem mais antiga que a outra"
+  ],
+  "c": 2,
+  "e": "O evento é o mesmo; o que muda é a capacidade de enfrentar e se recuperar — renda, moradia, infraestrutura, território e acesso a serviços."
+ },
+ {
+  "q": "Qual destas é uma medida de adaptação citada no projeto?",
+  "o": [
+   "Aumentar a emissão de combustíveis fósseis",
+   "Restaurar áreas úmidas, florestas e dunas",
+   "Ignorar o conhecimento local das comunidades",
+   "Construir apenas em zonas de alto risco de enchente"
+  ],
+  "c": 1,
+  "e": "Restaurar áreas úmidas, florestas e dunas reduz o impacto de enchentes e ondas. Outras medidas incluem planejar onde construir e incluir iwi e hapū no planejamento."
+ },
+ {
+  "q": "Quais regiões da Nova Zelândia foram especialmente atingidas pelo Ciclone Gabrielle?",
+  "o": [
+   "Apenas a Ilha Sul",
+   "Litoral norte e leste da Ilha Norte",
+   "Somente Auckland e Wellington",
+   "Apenas áreas desabitadas do interior do país"
+  ],
+  "c": 1,
+  "e": "O ciclone atingiu sobretudo o litoral norte e leste da Ilha Norte, incluindo Hawke's Bay, Tairāwhiti e Northland."
+ },
+ {
+  "q": "Segundo a ideia central do projeto, o clima muda para todos, mas…",
+  "o": [
+   "os impactos são iguais para todas as pessoas",
+   "só os países ricos sofrem efeitos reais",
+   "os impactos dependem de recursos, território e infraestrutura",
+   "a adaptação já está concluída em todos os países do mundo hoje"
+  ],
+  "c": 2,
+  "e": "O clima muda para todos, mas a capacidade de se proteger e se recuperar depende de renda, moradia, infraestrutura, território e acesso a serviços — reforçando desigualdades existentes."
  }
 ]

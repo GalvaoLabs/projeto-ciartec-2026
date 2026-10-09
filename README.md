@@ -62,7 +62,7 @@ Cada dado do site tem valor, unidade, período, definição e fonte. Em `data/co
 Python é usado para análise, não no site. **Pandas** organiza e trata os dados de `analysis/dados.csv` e calcula diferenças entre grupos; **Matplotlib** gera os gráficos em `assets/charts/` e `analisar_dados.py` escreve `data/graficos.json`. Um gráfico só é publicado quando todas as linhas estão `verificado` e com período preenchido; os resultados verificados são então lidos pelo frontend. Veja `analysis/README.md` e `VALIDACAO.md`.
 
 ## Quiz
-Cinco perguntas objetivas em `data/quiz.json`, com feedback e explicação a cada resposta. A pontuação é calculada a partir das respostas e fica só na memória da página (sem `localStorage`, sem coleta de dados). O resultado (X/5, percentual e mensagem conforme o desempenho, com a lista do que revisar) aparece só depois da última resposta, e "Refazer o quiz" zera tudo.
+Dez perguntas objetivas em `data/quiz.json`, com feedback e explicação a cada resposta. As opções são embaralhadas a cada tentativa (exceto nas perguntas numéricas, marcadas com `"fixo": true`). A pontuação é calculada a partir das respostas e fica só na memória da página (sem `localStorage`, sem coleta de dados). O resultado (X/10, percentual e mensagem conforme o desempenho, com a lista do que revisar) aparece só depois da última resposta, e "Refazer o quiz" zera tudo.
 
 ## Autoria e desenvolvimento
 **Desenvolvimento do aplicativo:** Miguel, responsável pela coordenação técnica e pela implementação do aplicativo web.
